@@ -21,7 +21,7 @@ but we don't need any of them to decompress the data, so we can ignore them.
 
 DEFLATE data is organized into blocks. each block starts with a bit indicating whether it's the last block, followed by a 2-bit type:
 
-type 0: stored (uncompressed) data
-type 1: compressed with fixed huffman codes
-type 2: compressed with dynamic huffman codes
+- type 0: stored (uncompressed) data
+- type 1: compressed with fixed huffman codes
+- type 2: compressed with dynamic huffman codes
 
